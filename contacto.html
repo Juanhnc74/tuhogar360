@@ -36,32 +36,28 @@
     <main class="contenedor seccion">
         <h1>Contacto</h1>
 
-        <picture>
-            <source srcset="build/img/destacada3.webp" type="image/webp">
-            <source srcset="build/img/destacada3.jpg" type="image/jpeg">
-            <img loading="lazy" src="build/img/destacada3.jpg" alt="Imagen Contacto">
-        </picture>
-
+        
+        <!--formulario-->
         <h2>Llene el formulario de Contacto</h2>
 
-        <form class="formulario">
+        <form class="formulario" action="src/database.php" method="post">
             <fieldset>
                 <legend>Información Personal</legend>
 
                 <label for="nombre">Nombre</label>
-                <input type="text" placeholder="Tu Nombre" id="nombre">
+                <input type="text" placeholder="Tu Nombre" name="nombre" id="nombre">
 
                 <label for="email">E-mail</label>
-                <input type="email" placeholder="Tu Email" id="email">
+                <input type="email" placeholder="Tu Email" name="email" id="email">
 
                 <label for="telefono">Teléfono</label>
-                <input type="tel" placeholder="Tu Teléfono" id="telefono">
+                <input type="tel" placeholder="Tu Teléfono" name="telefono" id="telefono">
 
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje"></textarea>
+                <textarea id="mensaje" name="mensaje"></textarea>
             </fieldset>
 
-            <fieldset>
+            <!--<fieldset>
                 <legend>Información sobre la propiedad</legend>
 
                 <label for="opciones">Vende o Compra:</label>
@@ -97,7 +93,7 @@
                 <label for="hora">Hora:</label>
                 <input type="time" id="hora" min="09:00" max="18:00">
 
-            </fieldset>
+            </fieldset> -->
 
             <input type="submit" value="Enviar" class="boton-verde">
         </form>
