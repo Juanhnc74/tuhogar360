@@ -50,3 +50,35 @@
     opacity:  1 !important;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
 }
+/*boton 360*/
+
+.botton360{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin: 0;
+}
+.vista360-btn {
+display: grid;
+align-items: center;
+padding: 5px;
+font-size: 15px;
+background-color: #4CAF50; /* Color de fondo del enlace */
+color: white; /* Color del texto */
+text-decoration: none; /* Quita la subrayado predeterminado del enlace */
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+width: 15rem;
+}
+
+.vista360-btn img {
+width: 45px; /* Ajusta el tamaño de la imagen según sea necesario */
+margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.vista360-btn:hover {
+background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}
