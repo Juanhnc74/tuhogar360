@@ -16,7 +16,7 @@
 
         if (mysqli_query($conexion, $consulta)) {
             echo "Registro exitoso";
-            header("refresh:1;url=/");
+            header("refresh:1;url=index.html");
             exit;
         } else {
             // Error en la inserción
