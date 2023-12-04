@@ -1,5 +1,5 @@
 <?php
-    include './includes/templates/header.php';
+    include './includes/includes/header.php';
 ?>
 
     <main class="contenedor seccion contenido-centrado">
@@ -15,14 +15,10 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Terraza en el techo de tu casa</h4>
-<<<<<<< HEAD
                     <p>Escrito el: <span>20/11/2023</span> por: <span>Admin</span> </p>
-=======
                     <p>Escrito el: <span>20/10/2023</span> por: <span>Admin</span> </p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <p>
                         Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
                     </p>
@@ -40,14 +36,10 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Guía para la decoración de tu hogar</h4>
-<<<<<<< HEAD
                     <p>Escrito el: <span>20/10/2023</span> por: <span>Admin</span> </p>
-=======
                     <p>Escrito el: <span>22/09/2023</span> por: <span>Admin</span> </p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <p>
                         Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
                     </p>
@@ -65,14 +57,10 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Terraza en el techo de tu casa</h4>
-<<<<<<< HEAD
                     <p>Escrito el: <span>15/10/2023</span> por: <span>Admin</span> </p>
-=======
                     <p>Escrito el: <span>15/09/2023</span> por: <span>Admin</span> </p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <p>
                         Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
                     </p>
@@ -90,14 +78,10 @@
             </div>
 
             <div class="texto-entrada">
-                <a href="entrada.html">
+                <a href="entrada.php">
                     <h4>Guía para la decoración de tu hogar</h4>
-<<<<<<< HEAD
                     <p>Escrito el: <span>20/09/2023</span> por: <span>Admin</span> </p>
-=======
                     <p>Escrito el: <span>10/08/2023</span> por: <span>Admin</span> </p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <p>
                         Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
                     </p>
@@ -109,10 +93,10 @@
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
+                <a href="nosotros.php">Nosotros</a>
+                <a href="anuncios.php">Anuncios</a>
+                <a href="blog.php">Blog</a>
+                <a href="contacto.php">Contacto</a>
             </nav>
         </div>
 

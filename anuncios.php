@@ -1,5 +1,5 @@
 <?php
-    include './includes/templates/header.php';
+    include './includes/includes/header.php';
 ?>
 
     <main class="contenedor seccion">
@@ -34,7 +34,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -67,7 +67,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -100,7 +100,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -116,12 +116,8 @@
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-<<<<<<< HEAD
                     <p class="precio">$12,0000,000</p>
-=======
                     <p class="precio">$5,0000,000</p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <ul class="iconos-caracteristicas">
                         <li>
                             <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
@@ -137,7 +133,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -153,12 +149,8 @@
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-<<<<<<< HEAD
                     <p class="precio">$15,0000,000</p>
-=======
                     <p class="precio">$8,0000,000</p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <ul class="iconos-caracteristicas">
                         <li>
                             <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
@@ -174,7 +166,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -190,12 +182,8 @@
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-<<<<<<< HEAD
                     <p class="precio">$18,0000,000</p>
-=======
                     <p class="precio">$11,0000,000</p>
->>>>>>> parent of 1e25a87 (restauracion)
-
                     <ul class="iconos-caracteristicas">
                         <li>
                             <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
@@ -211,7 +199,7 @@
                         </li>
                     </ul>
 
-                    <a href="anuncio.html" class="boton-amarillo-block">
+                    <a href="anuncio.php" class="boton-amarillo-block">
                         Ver Propiedad
                     </a>
                 </div><!--.contenido-anuncio-->
@@ -223,10 +211,10 @@
     <footer class="footer seccion">
         <div class="contenedor contenedor-footer">
             <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
+                <a href="nosotros.php">Nosotros</a>
+                <a href="anuncios.php">Anuncios</a>
+                <a href="blog.php">Blog</a>
+                <a href="contacto.php">Contacto</a>
             </nav>
         </div>
 
