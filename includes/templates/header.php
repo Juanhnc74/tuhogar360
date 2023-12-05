@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tu hogar 360°</title>
-    <link rel="stylesheet" href="build/css/app.css">   
+    <link rel="stylesheet" href="build/css/app.css"> 
+    <link rel="stylesheet" href="build/css/tarjetas.css">    
 </head>
 <body>
     
@@ -32,8 +33,8 @@
                  
             </div> <!--.barra-->
             
-            <?php if($inicio) { ?>
+            <?php if (isset($inicio)) { ?>
                 <h1>Venta de Casas y Departamentos  Exclusivos de Lujo</h1>
-            <?php  } ?>
+            <?php  } ?>;
         </div>
     </header>

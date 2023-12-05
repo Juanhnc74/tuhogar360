@@ -1,5 +1,5 @@
 <?php
-    include './includes/includes/header.php';
+    include './includes/templates/header.php';
 ?>
 
     <main class="contenedor seccion contenido-centrado">
@@ -23,7 +23,7 @@
         <!--boton vista 360-->
         <div class="botton360">
             
-            <a href="http://localhost/app-files/index.html" class="vista360-btn">
+            <a href="./app-files/index.html" class="vista360-btn">
                 Abrir Vista 
                 <img src="build/img/icono_360button.png" alt="">
             </a>
@@ -109,20 +109,7 @@
             <p></p>
         </div>
     </main>
-
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="blog.php">Blog</a>
-                <a href="contacto.php">Contacto</a>
-            </nav>
-        </div>
-
-        <p class="copyright">Todos los derechos Reservados 2021 &copy;</p>
-    </footer>
-
-    <script src="build/js/bundle.min.js"></script>
-</body>
-</html>
+    
+<?php
+    include './includes/templates/footer.php';
+?>

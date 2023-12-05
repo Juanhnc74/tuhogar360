@@ -1,5 +1,5 @@
 <?php
-    include './includes/includes/header.php';
+    include './includes/templates/header.php';
 ?>
 
     <main class="contenedor seccion">
@@ -116,7 +116,7 @@
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p class="precio">$12,0000,000</p>
+                    
                     <p class="precio">$5,0000,000</p>
                     <ul class="iconos-caracteristicas">
                         <li>
@@ -149,7 +149,7 @@
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p class="precio">$15,0000,000</p>
+                    
                     <p class="precio">$8,0000,000</p>
                     <ul class="iconos-caracteristicas">
                         <li>
@@ -182,7 +182,7 @@
                 <div class="contenido-anuncio">
                     <h3>Casa con alberca</h3>
                     <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-                    <p class="precio">$18,0000,000</p>
+                    
                     <p class="precio">$11,0000,000</p>
                     <ul class="iconos-caracteristicas">
                         <li>
@@ -208,19 +208,6 @@
         </div> <!--.contenedor-anuncios-->
     </main>
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.php">Nosotros</a>
-                <a href="anuncios.php">Anuncios</a>
-                <a href="blog.php">Blog</a>
-                <a href="contacto.php">Contacto</a>
-            </nav>
-        </div>
-
-        <p class="copyright">Todos los derechos Reservados 2023 &copy;</p>
-    </footer>
-
-    <script src="build/js/bundle.min.js"></script>
-</body>
-</html>
+<?php
+    include './includes/templates/footer.php';
+?>
