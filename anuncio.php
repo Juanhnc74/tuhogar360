@@ -23,7 +23,7 @@
         <!--boton vista 360-->
         <div class="botton360">
             
-            <a href="#" class="vista360-btn">
+            <a href="http://localhost/app-files/index.html" class="vista360-btn">
                 Abrir Vista 
                 <img src="build/img/icono_360button.png" alt="">
             </a>
