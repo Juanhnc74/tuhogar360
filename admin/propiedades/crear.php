@@ -1,5 +1,13 @@
 <?php
-    include '../../includes/templates/funciones.php';
+    //Base de datos
+
+    require'../../includes/config/database.php';
+    conectarDB();
+
+
+    
+    
+    require '../../includes/templates/funciones.php';
     incluirTemplate('header');
 ?>
 
