@@ -4,6 +4,10 @@
     incluirTemplate ('header' , $inicio = true);
 ?>
 
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/45214079.js"></script>
+<!-- End of HubSpot Embed Code -->
+
     <main class="contenedor seccion">
         <h1>Más Sobre Nosotros</h1>
 
@@ -158,7 +162,7 @@
                 <div class="texto-entrada">
                     <a href="entrada.php">
                         <h4>Terraza en el techo de tu casa</h4>
-                        <p class="informacion-meta">Escrito el: <span>20/10/2023</span> por: <span>Admin</span> </p>
+                        <p class="informacion-meta">Escrito el: <span>20/10/2024</span> por: <span>Admin</span> </p>
 
                         <p>
                             Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero
@@ -179,8 +183,8 @@
                 <div class="texto-entrada">
                     <a href="entrada.php">
                         <h4>Guía para la decoración de tu hogar</h4>
-                        <p class="informacion-meta">Escrito el: <span>15/10/20213/span> por: <span>Admin</span> </p>
-                        <p class="informacion-meta">Escrito el: <span>15/09/2023</span> por: <span>Admin</span> </p>
+                        
+                        <p class="informacion-meta">Escrito el: <span>15/09/2024</span> por: <span>Admin</span> </p>
                         <p>
                             Maximiza el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio
                         </p>

@@ -7,15 +7,16 @@
     <title>Tu hogar 360°</title>
     <link rel="stylesheet" href="build/css/app.css"> 
     <link rel="stylesheet" href="build/css/app.css"> 
-     
-    <link rel="stylesheet" href="build/css/tarjetas.css">    
+    <link rel="stylesheet" href="build/css/tarjetas.css"> 
+    <link rel="icon" href="build\img\360.png" type="image/x-icon">
+ 
 </head>
 <body>
     
     <header class= "header <?php echo isset ($inicio) ? 'inicio' : '';  ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="/tuhogar360-main/index.php">
+                <a href="index.php">
                     <img src="build/img/logo.svg" alt="Logotipo de Bienes Raices">
                 </a>
 
