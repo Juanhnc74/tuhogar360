@@ -31,6 +31,7 @@
                         <a href="anuncios.php">Anuncios</a>
                         <a href="blog.php">Blog</a>
                         <a href="contacto.php">Contacto</a>
+                        <a href="login.php">Registrate</a>
                     </nav>
                 </div>    
                  
